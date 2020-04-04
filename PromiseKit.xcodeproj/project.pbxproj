@@ -229,6 +229,7 @@
 		C013F73F204E5063006B57B1 /* JSUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSUtils.swift; path = "Tests/JS-A+/JSUtils.swift"; sourceTree = "<group>"; };
 		C0244E622047A6CB00ACB4AC /* PMKJSA+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PMKJSA+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0244E682047AC9F00ACB4AC /* AllTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllTests.swift; path = "Tests/JS-A+/AllTests.swift"; sourceTree = "<group>"; };
+		DC03665F243824BE0046F568 /* PromiseKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PromiseKit.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,6 +406,7 @@
 		6399A3711D595D9100D65233 = {
 			isa = PBXGroup;
 			children = (
+				DC03665F243824BE0046F568 /* PromiseKit.xcconfig */,
 				635893971D5BE4F900F14B55 /* README.md */,
 				635893921D5BE4E000F14B55 /* PromiseKit.playground */,
 				63B0AC761D595E6300FA21D9 /* PromiseKit.h */,
@@ -905,6 +907,7 @@
 		};
 		6399A3761D595D9100D65233 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03665F243824BE0046F568 /* PromiseKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -966,6 +969,7 @@
 		};
 		6399A3771D595D9100D65233 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03665F243824BE0046F568 /* PromiseKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -1023,6 +1027,7 @@
 		};
 		63B0AC5D1D595E1B00FA21D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03665F243824BE0046F568 /* PromiseKit.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_WARN_ASSIGN_ENUM = YES;
@@ -1078,6 +1083,7 @@
 		};
 		63B0AC5E1D595E1B00FA21D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03665F243824BE0046F568 /* PromiseKit.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
